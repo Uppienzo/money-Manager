@@ -1,0 +1,25 @@
+.trans-item {
+  border: 1px solid #cbd5e1;
+  font-size: 0.7em;
+  color: #475569;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 30px;
+}
+.trans-item * {
+  width: 25%;
+}
+.dlt-button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.dlt-img {
+  height: 18px;
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .trans-item {
+    padding: 0px;
+  }
+}

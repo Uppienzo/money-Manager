@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  margin: 0px;
+}
+.container {
+  min-height: 100vh;
+  width: 65%;
+  background-color: white;
+  margin: 0px auto;
+  padding: 30px 0px;
+}
+.main-container {
+  margin-top: 0px;
+  margin: 0px 60px;
+  font-family: roboto;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+
+  padding: 10px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.profile-container * {
+  margin: 0px 20px;
+}
+.money-manager {
+  margin: 0px;
+  color: #0b69ff;
+}
+.profile-name-head {
+  font-size: 1.8em;
+  color: #475569;
+}
+.description {
+  font-size: 0.9em;
+}
+.transaction-container {
+  border: 1px solid #cbd5e1;
+}
+.transaction-container {
+  padding: 20px;
+  width: 40%;
+  margin: 8px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-container * {
+  margin: 5px 0px;
+}
+label {
+  color: #475569;
+  font-size: 0.6em;
+}
+input,
+select {
+  border: 1px solid #cbd5e1;
+  padding: 5px;
+  border-radius: 5px;
+  color: #475569;
+}
+.add-button {
+  color: white;
+  background-color: #0b69ff;
+  padding: 8px 20px;
+  border-radius: 6px;
+  align-self: flex-start;
+  border-width: 0px;
+}
+.account-transaction-container {
+  display: flex;
+  justify-content: center;
+}
+.history-container {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  width: 60%;
+  margin: 8px;
+  border-radius: 7px;
+}
+.transaction-head,
+.history-head {
+  color: #334155;
+  font-size: 1em;
+}
+
+.default-head {
+  border: 1px solid #cbd5e1;
+  font-size: 20px;
+  color: #475569;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 30px;
+}
+.default-head * {
+  width: 25%;
+}
+.transactions-list {
+  list-style-type: none;
+  padding-left: 0px;
+  padding: 10px;
+}
+.transparent {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .transactions-list {
+    padding: 2px;
+  }
+  .default-head {
+    padding: 0px;
+  }
+  .main-container {
+    margin: 0px 15px;
+  }
+  .account-transaction-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .transaction-container,
+  .history-container {
+    width: 100%;
+  }
+}
