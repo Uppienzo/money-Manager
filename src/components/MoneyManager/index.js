@@ -41,7 +41,7 @@ class MoneyManager extends Component {
   onchangeType = event => {
     const {value} = event.target
     const optionObj = transactionTypeOptions.find(
-      each => each.displayText === value,
+      each => each.optionId === value,
     )
     this.setState({optionId: optionObj.optionId})
   }

@@ -16,7 +16,7 @@ class MoneyDetails extends Component {
           />
           <div>
             <p className="details-text">Your Balance</p>
-            <p className="details-money" testid="balanceAmount">
+            <p className="details-money" id="balanceAmount">
               Rs {balance}
             </p>
           </div>
@@ -29,7 +29,7 @@ class MoneyDetails extends Component {
           />
           <div>
             <p className="details-text">Your Income</p>
-            <p className="details-money" testid="incomeAmount">
+            <p className="details-money" id="incomeAmount">
               Rs {income}
             </p>
           </div>
@@ -42,7 +42,7 @@ class MoneyDetails extends Component {
           />
           <div>
             <p className="details-text">Your Expenses</p>
-            <p className="details-money" testid="expensesAmount">
+            <p className="details-money" id="expensesAmount">
               Rs {expenses}
             </p>
           </div>
