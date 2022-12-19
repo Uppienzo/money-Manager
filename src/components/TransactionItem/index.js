@@ -15,7 +15,7 @@ const TransactionItem = props => {
       <button
         type="button"
         className="dlt-button"
-        id="delete"
+        testid="delete"
         onClick={deleteHistory}
       >
         <img
